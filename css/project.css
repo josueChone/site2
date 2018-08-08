@@ -1,0 +1,149 @@
+*{ margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300;
+	 font-family: Arial; box-sizing: border-box; -webkit-appearance: none;}
+body{ overflow-x: hidden;}
+a{ text-decoration: none;}
+ul{ list-style-type: none;}
+img{ width: 100%; height: 100%;}
+.container-fluid{ width: 90%; text-align: center; padding: 0;}
+
+/*HEADER*/
+
+header{ width: 100%; height: auto; background-color: #FFF; border-bottom: 2px solid #5C979B;
+	 position: fixed; z-index: 10;}
+.logo{ height: auto; float: left; padding: 5%;}
+.logo h1{ font-size: 2em; font-weight: bold; font-family: Arial, serif; color: #5C979B; 
+		text-transform: uppercase;}
+nav{ float: right; background-color: rgba(0,0,10,0.98); position: fixed; width: 100%; height: 100%;
+	 display: none; margin-left: -5%;}
+nav ul{ float: left; width: 100%; text-align: center;}
+nav ul li{ padding: 5%;}
+nav ul li a{ color: #568268; font-size: 1.2em; font-weight: bold;}
+.btn-nav{ float: right; border-radius: 50%; background-color: #2C9F78; color: #FFF; padding: 4%;
+	 cursor: pointer; margin-top: 4%;}
+.btn-fechar{ float: right; cursor: pointer; color: #548268; margin-right: 2%; margin-top: 2%;}
+
+/*BANNER*/
+
+.banner{ background: url("../img/bg-hero.jpg"); background-repeat: no-repeat; background-size: cover;
+	background-position: center; width: 100%; height: 50vh; margin-top: 17%; display: flex;
+	align-items: center;}
+.banner h1{ color: #FFF; font-weight: bold; font-size: 1.5em; text-transform: capitalize;}
+.btn{ margin: 10% 0 5% 0;}
+.btn a{ width: 70%; padding: 2% 5%; color: #FFF; text-transform: uppercase; font-size: 0.7em;
+	background-color: #398883; border: 2px solid #548268; border-radius: 25px; }
+.btn a:hover{ background-color: rgba(57,136,131,0.7);}
+.btn1{ margin-bottom: 20%;}
+.btn1 a{ width: 70%; padding: 2% 5%; color: #398883; margin-top: 10%; text-transform: uppercase;
+	font-size: 0.7em; background-color: rgba(255,255,255); border: 2px solid #FFF; border-radius: 25px; }
+.btn1 a:hover{ background-color: rgba(255,255,255,0.4); color: #fff;}
+
+/*MUSICA*/
+.conteudo{ margin-top: 5%;}
+.conteudo .container-fluid h2{ color: #398883; text-transform: uppercase; font-size: 1em;
+ 	font-weight: bold; padding: 5%;	}
+.box{ display: flex; flex-flow: row; flex-flow: -ms-row; flex-flow: -webkit-row; display: -ms-flexbox;
+  	display: -webkit-box;}
+figure.kkk{ border: 2px solid #FFF; box-shadow: 0px 0px 2px 2px #ccc; margin-bottom: 5%; 
+	border-radius: 3px; padding: 0;}
+.box figure img{ padding: 3%;}
+.box figure figcaption h4{ color: #000; text-transform: uppercase; font-size: 1.2em; font-weight: bold;}
+.box figure figcaption p{ color: #000; text-transform: uppercase; padding-top: 4%;}
+.box  float: right;padding: 1% 3% 7% 0;}
+
+/*PROMACAO*/
+
+.promocao{background-color: rgba(255,245,238,0.6);margin-top: 2%;}
+.prom h2{text-transform: uppercase;color: #000;padding: 7%;font-weight: bold;font-size: 0.7em;}
+.prom h2 span{color: #398883;font-weight: bold;}
+.prom p{font-weight: bold;padding: 1.5%;}
+.prom figure{padding: 15% 0;}
+
+/*VENDA*/
+
+.venda{background-color: #6DB35B; width: 100%; height: auto; padding-bottom: 5%;}
+.mes{display: flex; flex-flow: row; flex-flow: -ms-row; flex-flow: -webkit-row; display: -ms-flexbox;
+ display: -webkit-box;}
+.caixa{width: 100%; background-color: #FFF; border: 2px solid #fff; box-shadow: 0px 0px 1px 1px #fff;
+	border-radius: 5px; margin: 9% 0; padding-bottom: 5%;}
+.mes h3{font-weight: bold; font-size: 1.5em; border-bottom: 1px solid #cecece; text-align: left;
+	padding: 1% 0 5% 2%;}
+.mes p{font-weight: bold;text-align: left; padding: 3% 0 2% 2%;}
+.mes ul{margin: 5% 5%;text-align: left; padding: 0 2%;}
+.mes li{padding: 3%; opacity: 0.3;}
+.mes .visivel{opacity: 1;}
+.mes .btn{padding: 2% 20%; color: #FFF; text-transform: uppercase; font-size: 0.5em; 
+	background-color: #398883; border: 1px solid #548268; border-radius: 25px; margin-top: 5%; }
+.paragrafo p{ color: #fff;}
+
+/*newsletter*/
+
+.newsletter{ background: url("../img/bg-newsleter.jpg"); background-position: center top; 
+	background-attachment: fixed; width: 100%; height: 50vh; align-items: center;}
+.novidade p{ color: #fff; padding: 20% 0 2% 0; font-weight: bold; font-size: 0.8em;}
+.novidade p span{ color: #6DB35B;}
+.form{ width: 100%; height: auto; padding: 2%;}
+.form input{ width: 90%; padding: 2% 3%; color: #ccc; text-transform: uppercase; font-size: 0.5em; 
+	background-color: #fff; border: 1px solid #ccc; border-radius: 5px; margin: 0% 0 2% 0;}
+.form input[type="submit"]{ text-align: center; color: #FFF; background-color: #398883;}
+
+/*FOOTER*/
+
+footer{ background-color: rgba(0,0,0,0.9); width: 100%; height: auto;}
+.logo1 h1{ color: #fff; font-size: 1.5em; font-weight: bold; float: left;}
+.box1 ul{ margin-top: 20%; margin-left: 2%; padding: 0 5%; float: left;}
+.box1 ul li{ padding: 2%; text-align: left;}
+.box1 ul li a{ color: #fff;}
+.copy{ width: 100%; float: left;}
+.copy p{ color: #fff; border-top: 1px solid #fff; text-align: center;}
+
+/*MEDIA*/
+/*max-width: 768px*/
+
+@media screen and (min-width: 768px){
+	.container-fluid{width: 90%;}
+	header{height: 10%;}
+	.logo{ padding: 2% 0;}
+	.btn-nav{ padding: 2%; margin-top: 0.6%;}
+	nav ul li{ padding: 2%;}
+	.banner{ margin-top: 6.7%;}
+	.banner h1{ margin-top: 35%; font-size: 2em;}
+	.btn a{ padding: 2% 30%;}
+	.btn1 a{ padding: 2% 30%;}
+	.conteudo{ margin: 0;}
+	.conteudo .container-fluid h2{ font-size: 2em;}
+	.prom h2{ font-size: 1.5em; padding: 2% 0;}
+	.prom p{ text-transform: uppercase; padding: 0.5%;}
+	.prom figure{ padding: 5% 0;}
+	.mes ul{ margin: 5% 0; padding: 0 9%;}
+	.newsletter{ background-position: center;	}
+	.novidade p{ padding: 4% 0 0 0; font-size: 1em;}
+	.form{ width: 100%; height: auto; padding: 5% 0 0 0;}
+	.form input{ margin: -5%;}
+}
+
+/*max-width: 1280px*/
+
+@media screen and (min-width: 1280px) {
+	header{ padding: 2%;}
+	.container-fluid{ width: 90%;}
+	.logo{ padding: 0; margin: -4% 0 0 0;}   
+	.btn-nav{ display: none;}
+	.btn-fechar{ display: none;}
+	nav{ width: 50%; height: auto; float: right; display: block; position: static; margin: -0.7% 0 0 1%; background-color: rgba(0,0,0,0.0);}
+	nav ul{ align-items: center; margin: 1% 0 0 15%;}
+	nav ul li{ margin-left: 5%; padding: 0 1% 0 1%; float: left; text-align: right;}
+	nav ul li a{ color: #6DB35B;  font-weight: normal; font-size: 1e }
+	.btn{ margin: 0;}
+	.btn a{ padding: 2% 33%;}
+	.container-fluid h1{ margin: 15% 55% 15% 0; font-size: 2.5em;}
+	.btn1 a{ padding: 2% 33%;	}
+	.banner{ width: 100%; height:100vh; margin-top: 0;}
+	.prom h2{ padding: 5%;}
+	.prom p{ padding-right: 40%;}
+	.prom figure{ width: 50%; margin-top: -15%; float: right;}
+	input[type="submit"]{ padding: 4% 0;}
+	.logo1 h1{margin-top: 5%;}
+	.box1 ul{ display: inline-table;}
+	.box1 ul li a{ color: #fff;}
+	.copy p{ color: #fff; border-top: 1px solid #fff; padding: 5%
+}
